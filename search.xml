@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title><![CDATA[在搭建hexo 博客中遇到的nmp ERR!]]></title>
+      <url>/2017/09/28/filename/</url>
+      <content type="html"><![CDATA[<p>搭建hexo出现以下报错，<img src="http://owlusr6jf.bkt.clouddn.com/QQ%E5%9B%BE%E7%89%8720170928230621.png" alt="enter description here"></p>
+<p>  ，执行清除npm缓存命令，<code>git clean -df</code>    ， 然后重新设置npm淘宝镜像 <code>npm config set registry &quot;https://registry.npm.taobao.org&quot;</code>  在重新执行<code>nmp install</code>即可成功。</p>
+]]></content>
+      
+        
+    </entry>
+    
+  
+  
+</search>
