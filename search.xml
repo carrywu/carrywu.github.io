@@ -28,12 +28,6 @@ console.log(s);</code></p>
 <p>  ，执行清除npm缓存命令，<code>git clean -df</code>    ， 然后重新设置npm淘宝镜像 <code>npm config set registry &quot;https://registry.npm.taobao.org&quot;</code>  在重新执行<code>nmp install</code>即可成功。</p>
 ]]></content>
       
-        <categories>
-            
-            <category> Blog </category>
-            
-        </categories>
-        
         
     </entry>
     
