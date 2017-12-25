@@ -247,6 +247,130 @@
   
   
 
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/12/25/filename2/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Carry">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Carry">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/12/25/filename2/" itemprop="url">javascript中的eval()方法与join()方法</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-25T11:56:51+08:00">
+                2017-12-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <pre><code>在简书上看到一篇用javascript计算器的文章，[文章链接][1]
+</code></pre><p> <a href="http://www.runoob.com/jsref/jsref-join.html" target="_blank" rel="external">1</a>: <a href="https://www.jianshu.com/p/13aec71c854c" target="_blank" rel="external">https://www.jianshu.com/p/13aec71c854c</a>  只学了一星期javascript的我对代码<code>txt.value = eval(way_res.join(&quot;&quot;));</code>这里eval()和join()很不理解。<br> <strong>先来看下join()方法</strong> <a href="http://www.runoob.com/jsref/jsref-join.html" target="_blank" rel="external">这里是菜鸟教程的定义</a> 在这里的join的作用是讲wey_res[]中元素返回为字符串传入eval()方法中。<br> <strong>再来看下eval()方法</strong><a href="http://www.w3school.com.cn/jsref/jsref_eval.asp" target="_blank" rel="external">这是w3c的定义</a>  这个方法就是将传入的数字依次进行计算 ，可以在浏览器开发工具中输入一下代码，体会这个方法的用法<code>var mycars=new Array(&quot;1&quot;,&quot;*&quot;,&quot;4&quot;);
+var s=eval(mycars.join(&quot;&quot;));
+console.log(s);</code></p>
+<p>==总结： #d30833== join()函数是把 way_res[]数组里的数字调用进eval()函数里<br>然后eval()函数进行计算。<br>这是我对这两个方法的理解，假如有什么不对的请联系我。</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
   <article class="post post-type-博客" itemscope itemtype="http://schema.org/Article">
   
   
@@ -427,7 +551,7 @@
             
               <a href="/archives/">
             
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -444,6 +568,15 @@
             </div>
           
 
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">标签</span>
+              
+            </div>
           
 
         </nav>
