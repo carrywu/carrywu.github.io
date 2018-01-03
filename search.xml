@@ -3,6 +3,21 @@
   
     
     <entry>
+      <title><![CDATA[javascript学习日记--arguments ()]]></title>
+      <url>/2018/01/03/javascript%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0--arguments%20()/</url>
+      <content type="html"><![CDATA[<p>今日看到在<a href="https://www.liaoxuefeng.com" target="_blank" rel="external">廖雪峰老师的网站</a>上看到这样一<img src="http://owlusr6jf.bkt.clouddn.com/TIM%E6%88%AA%E5%9B%BE20180103100210.png" alt="题"> 其中不知道怎么获取函数中传入的参数，后来看到别人的<a href="http://owlusr6jf.bkt.clouddn.com/TIM%E5%9B%BE%E7%89%8720180103100649.png" target="_blank" rel="external">源代码</a>，看到这个答主用arguments()获取function中的传参，廖老师的Javascript教程中的arguments()的<a href="http://owlusr6jf.bkt.clouddn.com/TIM%E6%88%AA%E5%9B%BE20180103101105.png" target="_blank" rel="external">用法</a>是这样的。学习中要做些习题才能反馈出学习中的一些问题</p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> javascript </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[javascript中的eval()方法与join()方法]]></title>
       <url>/2017/12/25/filename2/</url>
       <content type="html"><![CDATA[<p>在简书上看到一篇用javascript计算器的文章，<a href="https://www.jianshu.com/p/53f37196f6e7" target="_blank" rel="external">这是文章</a>。</p>
